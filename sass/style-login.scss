@@ -44,15 +44,7 @@ $screen-xs: 480px;
 	box-shadow: none;
 }
 
-
-/* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
-
-// Template Base
+// Style Base
 
 body {
 	font-family: $font-primary;
@@ -171,7 +163,8 @@ a {
 }
 
 .btn-primary {
-	height: 50px;
+	// height: 50px;
+	border-radius: 0 !important;
 	padding-right: 20px;
 	padding-left: 20px;
 	border: none;
